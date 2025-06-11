@@ -12,7 +12,7 @@ import {
 
 import CabeceraCV from "./components/CabeceraCV";
 import Perfil from "./components/Perfil";
-import Educacion from "./components/Educacion";
+import Educacion from "./components/Experiencia";
 import Experiencia from "./components/Experiencia";
 import StackTecnologias from "./components/StackTecnologias";
 import Proyectos from "./components/Proyectos";
