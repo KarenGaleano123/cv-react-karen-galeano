@@ -34,4 +34,6 @@ Para ejecutar el proyecto localmente:
    ```
 4. Abre tu navegador en `http://localhost:5173` para ver la aplicación.
 
+![image](https://github.com/user-attachments/assets/17dcef75-df3c-4aec-94af-82339fb22d38)
+
 ---
