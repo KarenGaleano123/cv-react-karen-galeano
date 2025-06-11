@@ -1,7 +1,7 @@
 // src/data/cvData.js
 export const cabecera = {
-  nombre: "Nombre del Aprendiz",
-  profesion: "Desarrollador UI Frontend"
+  nombre: "Karen Galeano",
+  profesion: "Desarrollador Full Stack"
 };
 
 export const perfil = {
