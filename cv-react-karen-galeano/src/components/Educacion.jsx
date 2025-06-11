@@ -1,20 +1,17 @@
 export default function Educacion() {
+  const educacion = [
+    { id: 1, titulo: "Ingeniería en Sistemas", universidad: "Universidad Nacional", periodo: "2018-2022" }
+  ];
+
   return (
     <section>
       <h3>Educación</h3>
       <ul>
-        <li>
-          <strong>Ingeniería en Sistemas</strong> - Universidad Nacional
-          (2027-2032)
-        </li>
-        <li>
-          <strong>Tecnologo en Analisis y Desarrollo de Software</strong> - SENA
-          (2025-2027)
-        </li>
-        <li>
-          <strong>Bachiller tecnico en sistemas</strong> - Rodrigo Lara Bonilla
-          - (2018 - 2024)
-        </li>
+        {educacion.map((edu) => (
+          <li key={edu.id}>
+            <strong>{edu.titulo}</strong> - {edu.universidad} ({edu.periodo})
+          </li>
+        ))}
       </ul>
     </section>
   );
