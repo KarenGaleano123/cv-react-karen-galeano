@@ -15,6 +15,12 @@ export const educacion = [
     titulo: "Ingeniería en Sistemas",
     universidad: "Universidad Nacional",
     periodo: "2018-2022"
+  },
+  {
+    id: 2,
+    titulo: "Tecnologo en analisis y desarrollo de software",
+    universidad: "SENA",
+    periodo: "2025 - 2027"
   }
 ];
 
@@ -30,6 +36,12 @@ export const experiencia = [
     puesto: "Instructor TIC",
     empresa: "SENA",
     periodo: "2020-2022"
+  },
+  {
+    id: 3,
+    puesto: "Secretaria de gobierno",
+    empresa: "Casa de Nariño",
+    periodo: "2026 - 2028"
   }
 ];
 
@@ -44,15 +56,23 @@ export const stackTecnologias = [
 export const proyectos = [
   {
     id: 1,
-    nombre: "Web E-commerce",
-    descripcion: "Plataforma de venta de productos en línea con carrito de compras.",
-    enlace: "https://github.com/usuario/proyecto-ecommerce"
+    nombre: "Venta de anchetas",
+    descripcion: "Venta independiente de anchetas"
   },
   {
     id: 2,
-    nombre: "App de Tareas",
-    descripcion: "Aplicación móvil para gestionar tareas diarias con React Native.",
-    enlace: "https://github.com/usuario/app-tareas"
+    nombre: "Venta de tostadas",
+    descripcion: "venta independiente de tostadas",
+  },
+  {
+    id: 3,
+    nombre: "pagina web para la gestion de un banco",
+    descripcion: "Pagina web para la gestion de Bancolombia"
+  },
+  {
+    id: 4,
+    nombre: "Aplicacion de mascotas",
+    descripcion: "Aplicación de gestion de mascotas"
   }
 ];
 
